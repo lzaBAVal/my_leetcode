@@ -25,10 +25,7 @@ def sumOfSquareNums(c:int) -> bool:
     l = [i ** 2 for i in range(0, c + 1)]
     d = []
     for n in l:
-        # print(f'n: {n}')
-        # print(f'c-n: {c-n}')
         d.append(n)
-        # print(f'new d: {d}')
         if c - n in d:
             return True
     return False
