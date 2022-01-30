@@ -21,7 +21,7 @@ def twoSum(nums: List[int], target: int) -> List[int]:
         d[num] = i
 
 
-def sumOfSquareNums(c:int) -> bool:
+def sumOfSquareNums(c: int) -> bool:
     l = [i ** 2 for i in range(0, c + 1)]
     d = []
     for n in l:
@@ -29,5 +29,6 @@ def sumOfSquareNums(c:int) -> bool:
         if c - n in d:
             return True
     return False
+
 
 print(twoSum(nums=l, target=target))
