@@ -88,6 +88,8 @@ example = [1, 2, 2 ** 32 - 1]
 for i in example:
     tree.insert(i)
 
+
+
 # nums = [3, 10, 5, 25]
 nums = [1, 3, 4]
 for i in nums:
